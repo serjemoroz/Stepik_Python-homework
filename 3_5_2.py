@@ -26,5 +26,6 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
-        #Ч тобы запустить тест с нужной маркировкой, нужно передать в командной строке параметр -m и нужную метку:
+        #Чтобы запустить тест с нужной маркировкой, нужно передать в командной строке параметр -m и нужную метку:
+
         # pytest -s -v -m smoke 3_5_2.py
